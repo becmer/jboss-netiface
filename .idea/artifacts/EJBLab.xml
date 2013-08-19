@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="ear" build-on-make="true" name="EJBLab">
+    <output-path>$PROJECT_DIR$/out/artifacts/EJBLab</output-path>
+    <root id="archive" name="EJBLab.ear">
+      <element id="archive" name="netiface.jar">
+        <element id="module-output" name="netiface" />
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="$PROJECT_DIR$/netiface/META-INF/MANIFEST.MF" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="EJBLab/javaeeApplication/javaEEApplication" />
+    </root>
+  </artifact>
+</component>

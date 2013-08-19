@@ -1,0 +1,11 @@
+D:\Programy\Java\jdk1.7.0_21_i586\bin\java -Didea.launcher.port=7532 "-Didea.launcher.bin.path=D:\Programy\JetBrains\IntelliJ IDEA 12.1.4\bin" -Dfile.encoding=UTF-8 -classpath "D:\Programy\Java\jdk1.7.0_21_i586\lib\ant-javafx.jar;D:\Programy\Java\jdk1.7.0_21_i586\lib\dt.jar;D:\Programy\Java\jdk1.7.0_21_i586\lib\javafx-doclet.jar;D:\Programy\Java\jdk1.7.0_21_i586\lib\javafx-mx.jar;D:\Programy\Java\jdk1.7.0_21_i586\lib\jconsole.jar;D:\Programy\Java\jdk1.7.0_21_i586\lib\sa-jdi.jar;D:\Programy\Java\jdk1.7.0_21_i586\lib\tools.jar;D:\Projekty\Maisica\EJBLab\out\production\EJBLab;D:\Projekty\Maisica\EJBLab\out\production\netiface;D:\Programy\JetBrains\IntelliJ IDEA 12.1.4\lib\idea_rt.jar" com.intellij.rt.execution.application.AppMain lab.NetIfaceBean
+sie 19, 2013 1:24:12 PM lab.NetIfaceBean enumerate
+INFO: D:\Programy\Java\jdk1.7.0_21_i586\jre
+sie 19, 2013 1:24:12 PM lab.NetIfaceBean enumerate
+INFO: name:lo (Software Loopback Interface 1)
+sie 19, 2013 1:24:13 PM lab.NetIfaceBean enumerate
+INFO: name:net5 (Intel(R) Wireless WiFi Link 4965AGN)
+sie 19, 2013 1:24:13 PM lab.NetIfaceBean enumerate
+INFO: name:eth8 (VirtualBox Host-Only Ethernet Adapter)
+
+Process finished with exit code 0

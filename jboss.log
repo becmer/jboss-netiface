@@ -1,0 +1,84 @@
+D:\Programy\JBoss\bin\standalone.bat
+[2013-08-19 01:21:59,482] Artifact EJBLab: Server is not connected. Deploy is not available.
+Detected server admin port: 9999
+Detected server http port: 8080
+Calling "D:\Programy\JBoss\bin\standalone.conf.bat"
+===============================================================================
+
+  JBoss Bootstrap Environment
+
+  JBOSS_HOME: D:\Programy\JBoss
+
+  JAVA: D:\Programy\Java\jdk1.7.0_21_i586\bin\java
+
+  JAVA_OPTS: -client -Dprogram.name=standalone.bat -Xms256M -Xmx512M -XX:MaxPermSize=256M -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman
+
+===============================================================================
+
+13:22:01,462 INFO  [org.jboss.modules] (main) JBoss Modules version 1.2.0.Final-redhat-1
+13:22:01,673 INFO  [org.jboss.msc] (main) JBoss MSC version 1.0.4.GA-redhat-1
+13:22:01,763 INFO  [org.jboss.as] (MSC service thread 1-3) JBAS015899: JBoss EAP 6.1.0.GA (AS 7.2.0.Final-redhat-8) starting
+13:22:03,143 INFO  [org.xnio] (MSC service thread 1-2) XNIO Version 3.0.7.GA-redhat-1
+13:22:03,146 INFO  [org.jboss.as.server] (Controller Boot Thread) JBAS015888: Creating http management service using socket-binding (management-http)
+13:22:03,152 INFO  [org.xnio.nio] (MSC service thread 1-2) XNIO NIO Implementation Version 3.0.7.GA-redhat-1
+13:22:03,163 INFO  [org.jboss.remoting] (MSC service thread 1-2) JBoss Remoting version 3.2.16.GA-redhat-1
+13:22:03,257 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 29) JBAS010280: Activating Infinispan subsystem.
+13:22:03,299 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 25) JBAS010403: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+13:22:03,336 INFO  [org.jboss.as.connector.logging] (MSC service thread 1-2) JBAS010408: Starting JCA Subsystem (IronJacamar 1.0.17.Final-redhat-1)
+13:22:03,476 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 42) JBAS013171: Activating Security Subsystem
+13:22:03,505 INFO  [org.jboss.as.security] (MSC service thread 1-3) JBAS013170: Current PicketBox version=4.0.17.Final-redhat-1
+13:22:03,547 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 46) JBAS015537: Activating WebServices Extension
+13:22:03,581 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 37) JBAS011800: Activating Naming Subsystem
+13:22:03,599 INFO  [org.jboss.as.naming] (MSC service thread 1-2) JBAS011802: Starting Naming Service
+13:22:03,602 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-2) JBAS015400: Bound mail session [java:jboss/mail/Default]
+13:22:03,625 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 35) JBAS012605: Activated the following JSF Implementations: [main, 1.2]
+13:22:04,153 INFO  [org.jboss.ws.common.management] (MSC service thread 1-3) JBWS022052: Starting JBoss Web Services - Stack CXF Server 4.1.3.Final-redhat-3
+13:22:04,282 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-2) JBAS015012: Started FileSystemDeploymentService for directory D:\Programy\JBoss\standalone\deployments
+13:22:04,515 INFO  [org.jboss.as.remoting] (MSC service thread 1-2) JBAS017100: Listening on 127.0.0.1:4447
+13:22:04,534 INFO  [org.jboss.as.remoting] (MSC service thread 1-1) JBAS017100: Listening on 127.0.0.1:9999
+13:22:04,588 INFO  [org.apache.coyote.http11] (MSC service thread 1-4) JBWEB003001: Coyote HTTP/1.1 initializing on : http-/127.0.0.1:8080
+13:22:04,593 INFO  [org.apache.coyote.http11] (MSC service thread 1-4) JBWEB003000: Coyote HTTP/1.1 starting on: http-/127.0.0.1:8080
+13:22:04,902 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) JBAS010400: Bound data source [java:jboss/datasources/ExampleDS]
+13:22:05,074 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015961: Http management interface listening on http://127.0.0.1:9990/management
+13:22:05,075 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015951: Admin console listening on http://127.0.0.1:9990
+13:22:05,075 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015874: JBoss EAP 6.1.0.GA (AS 7.2.0.Final-redhat-8) started in 4099ms - Started 123 of 177 services (53 services are passive or on-demand)
+Connected to server
+[2013-08-19 01:22:05,569] Artifact EJBLab: Artifact is being deployed, please wait...
+13:22:05,691 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015876: Starting deployment of "EJBLab.ear" (runtime-name: "EJBLab.ear")
+13:22:05,755 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015876: Starting deployment of "null" (runtime-name: "netiface.jar")
+13:22:05,887 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-2) JNDI bindings for session bean named NetIfaceBean in deployment unit subdeployment "netiface.jar" of deployment "EJBLab.ear" are as follows:
+
+	java:global/EJBLab/netiface/NetIfaceBean!lab.NetIfaceBean
+	java:app/netiface/NetIfaceBean!lab.NetIfaceBean
+	java:module/NetIfaceBean!lab.NetIfaceBean
+	java:global/EJBLab/netiface/NetIfaceBean
+	java:app/netiface/NetIfaceBean
+	java:module/NetIfaceBean
+
+13:22:06,124 INFO  [lab.netiface] (ServerService Thread Pool -- 9) D:\Programy\Java\jdk1.7.0_21_i586\jre
+13:22:06,510 INFO  [lab.netiface] (ServerService Thread Pool -- 9) name:lo (Software Loopback Interface 1)
+13:22:06,570 INFO  [lab.netiface] (ServerService Thread Pool -- 9) name:net0 (WAN Miniport (SSTP))
+13:22:06,632 INFO  [lab.netiface] (ServerService Thread Pool -- 9) name:net1 (WAN Miniport (L2TP))
+13:22:06,693 INFO  [lab.netiface] (ServerService Thread Pool -- 9) name:net2 (WAN Miniport (PPTP))
+13:22:06,754 INFO  [lab.netiface] (ServerService Thread Pool -- 9) name:ppp0 (WAN Miniport (PPPOE))
+13:22:06,815 INFO  [lab.netiface] (ServerService Thread Pool -- 9) name:eth0 (WAN Miniport (IPv6))
+13:22:06,876 INFO  [lab.netiface] (ServerService Thread Pool -- 9) name:eth1 (WAN Miniport (Network Monitor))
+13:22:06,937 INFO  [lab.netiface] (ServerService Thread Pool -- 9) name:eth2 (WAN Miniport (IP))
+13:22:06,996 INFO  [lab.netiface] (ServerService Thread Pool -- 9) name:ppp1 (RAS Async Adapter)
+13:22:07,253 INFO  [lab.netiface] (ServerService Thread Pool -- 9) name:net5 (Intel(R) Wireless WiFi Link 4965AGN)
+13:22:07,613 INFO  [lab.netiface] (ServerService Thread Pool -- 9) name:eth7 (Intel(R) Wireless WiFi Link 4965AGN - VirtualBox Bridged Networking Driver Miniport)
+13:22:07,673 INFO  [lab.netiface] (ServerService Thread Pool -- 9) name:eth8 (VirtualBox Host-Only Ethernet Adapter)
+13:22:08,520 INFO  [lab.netiface] (ServerService Thread Pool -- 9) name:net20 (Intel(R) Wireless WiFi Link 4965AGN-Netmon Lightweight Filter Driver-0000)
+13:22:08,761 INFO  [lab.netiface] (ServerService Thread Pool -- 9) name:eth13 (VirtualBox Host-Only Ethernet Adapter-Netmon Lightweight Filter Driver-0000)
+13:22:08,823 INFO  [lab.netiface] (ServerService Thread Pool -- 9) name:eth14 (VirtualBox Host-Only Ethernet Adapter-QoS Packet Scheduler-0000)
+13:22:08,883 INFO  [lab.netiface] (ServerService Thread Pool -- 9) name:eth15 (VirtualBox Host-Only Ethernet Adapter-WFP LightWeight Filter-0000)
+13:22:08,944 INFO  [lab.netiface] (ServerService Thread Pool -- 9) name:eth16 (WAN Miniport (IPv6)-QoS Packet Scheduler-0000)
+13:22:09,003 INFO  [lab.netiface] (ServerService Thread Pool -- 9) name:eth17 (WAN Miniport (IP)-QoS Packet Scheduler-0000)
+13:22:09,066 INFO  [lab.netiface] (ServerService Thread Pool -- 9) name:eth18 (WAN Miniport (Network Monitor)-Netmon Lightweight Filter Driver-0000)
+13:22:09,130 INFO  [lab.netiface] (ServerService Thread Pool -- 9) name:eth19 (WAN Miniport (Network Monitor)-QoS Packet Scheduler-0000)
+13:22:09,193 INFO  [lab.netiface] (ServerService Thread Pool -- 9) name:net21 (Intel(R) Wireless WiFi Link 4965AGN-Native WiFi Filter Driver-0000)
+13:22:09,255 INFO  [lab.netiface] (ServerService Thread Pool -- 9) name:eth20 (Intel(R) Wireless WiFi Link 4965AGN - VirtualBox Bridged Networking Driver Miniport-Netmon Lightweight Filter Driver-0000)
+13:22:09,321 INFO  [lab.netiface] (ServerService Thread Pool -- 9) name:eth21 (Intel(R) Wireless WiFi Link 4965AGN - VirtualBox Bridged Networking Driver Miniport-QoS Packet Scheduler-0000)
+13:22:09,381 INFO  [lab.netiface] (ServerService Thread Pool -- 9) name:eth22 (Intel(R) Wireless WiFi Link 4965AGN - VirtualBox Bridged Networking Driver Miniport-WFP LightWeight Filter-0000)
+13:22:09,402 INFO  [org.jboss.as.server] (management-handler-thread - 2) JBAS018559: Deployed "EJBLab.ear" (runtime-name : "EJBLab.ear")
+[2013-08-19 01:22:09,413] Artifact EJBLab: Artifact is deployed successfully
