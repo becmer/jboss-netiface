@@ -1,0 +1,76 @@
+#
+# jnetpcap was used as experiment only and have no impact to the NetworkInterface behaviour
+#
+Description:	Java(TM) Platform SE binary
+Company:	Oracle Corporation
+Name:	java.exe
+Version:	7.0.210.11
+Path:	D:\Programy\Java\jdk1.7.0_21_i586\bin\java.exe
+Command Line:	"D:\Programy\Java\jdk1.7.0_21_i586\bin\java"  -client -Dprogram.name=standalone.bat -Xms256M -Xmx512M -XX:MaxPermSize=256M -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman  "-Dorg.jboss.boot.log.file=D:\Programy\JBoss\standalone\l
+PID:	4140
+Parent PID:	3084
+Session ID:	1
+User:	Boston\kbec
+Auth ID:	00000000:00054522
+Architecture:	32-bit
+Virtualized:	False
+Integrity:	Etykieta obowiązkowości\Poziom obowiązkowości — wysoki
+Started:	2013-08-19 17:33:29
+Ended:	(Running)
+Modules:
+packet.dll	0x370000	0x18000	C:\Windows\SysWOW64\packet.dll	Riverbed Technology, Inc.	4.1.0.2980
+java.exe	0x9a0000	0x2f000	D:\Programy\Java\jdk1.7.0_21_i586\bin\java.exe	Oracle Corporation	7.0.210.11
+wpcap.dll	0x5ac0000	0x4c000	C:\Windows\SysWOW64\wpcap.dll	Riverbed Technology, Inc.	4.1.0.2980
+jvm.dll	0x603e0000	0x34f000	D:\Programy\Java\jdk1.7.0_21_i586\jre\bin\client\jvm.dll	Oracle Corporation	23.21.0.01
+jnetpcap.dll	0x63b40000	0x2b000	D:\Programy\JBoss\bin\jnetpcap.dll		
+msvcr100.dll	0x658f0000	0xbe000	D:\Programy\Java\jdk1.7.0_21_i586\jre\bin\msvcr100.dll	Microsoft Corporation	10.00.30319.1
+sunmscapi.dll	0x6a6b0000	0x9000	D:\Programy\Java\jdk1.7.0_21_i586\jre\bin\sunmscapi.dll	Oracle Corporation	7.0.210.11
+nio.dll	0x6a700000	0xe000	D:\Programy\Java\jdk1.7.0_21_i586\jre\bin\nio.dll	Oracle Corporation	7.0.210.11
+net.dll	0x6a710000	0x14000	D:\Programy\Java\jdk1.7.0_21_i586\jre\bin\net.dll	Oracle Corporation	7.0.210.11
+management.dll	0x6a730000	0xa000	D:\Programy\Java\jdk1.7.0_21_i586\jre\bin\management.dll	Oracle Corporation	7.0.210.11
+zip.dll	0x6a740000	0x13000	D:\Programy\Java\jdk1.7.0_21_i586\jre\bin\zip.dll	Oracle Corporation	7.0.210.11
+verify.dll	0x6a780000	0xc000	D:\Programy\Java\jdk1.7.0_21_i586\jre\bin\verify.dll	Oracle Corporation	7.0.210.11
+wshbth.dll	0x6c2d0000	0xd000	C:\Windows\SysWOW64\wshbth.dll	Microsoft Corporation	6.1.7601.17514 (win7sp1_rtm.101119-1850)
+winrnr.dll	0x6c2e0000	0x8000	C:\Windows\SysWOW64\winrnr.dll	Microsoft Corporation	6.1.7600.16385 (win7_rtm.090713-1255)
+pnrpnsp.dll	0x6c2f0000	0x12000	C:\Windows\SysWOW64\pnrpnsp.dll	Microsoft Corporation	6.1.7600.16385 (win7_rtm.090713-1255)
+wship6.dll	0x6c310000	0x6000	C:\Windows\SysWOW64\wship6.dll	Microsoft Corporation	6.1.7600.16385 (win7_rtm.090713-1255)
+rasadhlp.dll	0x6c320000	0x6000	C:\Windows\SysWOW64\rasadhlp.dll	Microsoft Corporation	6.1.7600.16385 (win7_rtm.090713-1255)
+fwpuclnt.dll	0x6c330000	0x38000	C:\Windows\SysWOW64\fwpuclnt.dll	Microsoft Corporation	6.1.7600.16385 (win7_rtm.090713-1255)
+napinsp.dll	0x6c3e0000	0x10000	C:\Windows\SysWOW64\napinsp.dll	Microsoft Corporation	6.1.7600.16385 (win7_rtm.090713-1255)
+IPHLPAPI.DLL	0x70950000	0x1c000	C:\Windows\SysWOW64\IPHLPAPI.DLL	Microsoft Corporation	6.1.7600.16385 (win7_rtm.090713-1255)
+COMCTL32.dll	0x70f90000	0x19e000	C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_41e6975e2bd6f2b2\COMCTL32.dll	Microsoft Corporation	6.10 (win7_rtm.090713-1255)
+WINNSI.DLL	0x71470000	0x7000	C:\Windows\SysWOW64\WINNSI.DLL	Microsoft Corporation	6.1.7600.16385 (win7_rtm.090713-1255)
+DNSAPI.dll	0x71b70000	0x44000	C:\Windows\SysWOW64\DNSAPI.dll	Microsoft Corporation	6.1.7600.16385 (win7_rtm.090713-1255)
+wshtcpip.dll	0x71c00000	0x5000	C:\Windows\SysWOW64\wshtcpip.dll	Microsoft Corporation	6.1.7600.16385 (win7_rtm.090713-1255)
+profapi.dll	0x72390000	0xb000	C:\Windows\SysWOW64\profapi.dll	Microsoft Corporation	6.1.7600.16385 (win7_rtm.090713-1255)
+USERENV.dll	0x723a0000	0x17000	C:\Windows\SysWOW64\USERENV.dll	Microsoft Corporation	6.1.7600.16385 (win7_rtm.090713-1255)
+mswsock.dll	0x72400000	0x3c000	C:\Windows\SysWOW64\mswsock.dll	Microsoft Corporation	6.1.7600.16385 (win7_rtm.090713-1255)
+WINMM.dll	0x72590000	0x32000	C:\Windows\SysWOW64\WINMM.dll	Microsoft Corporation	6.1.7600.16385 (win7_rtm.090713-1255)
+rsaenh.dll	0x72750000	0x3b000	C:\Windows\SysWOW64\rsaenh.dll	Microsoft Corporation	6.1.7600.16385 (win7_rtm.090713-1255)
+CRYPTSP.dll	0x72790000	0x16000	C:\Windows\SysWOW64\CRYPTSP.dll	Microsoft Corporation	6.1.7600.16385 (win7_rtm.090713-1255)
+WSOCK32.dll	0x733c0000	0x7000	C:\Windows\SysWOW64\WSOCK32.dll	Microsoft Corporation	6.1.7600.16385 (win7_rtm.090713-1255)
+dhcpcsvc6.DLL	0x73ae0000	0xd000	C:\Windows\SysWOW64\dhcpcsvc6.DLL	Microsoft Corporation	6.1.7601.17970 (win7sp1_gdr.121009-0412)
+dhcpcsvc.DLL	0x73c70000	0x12000	C:\Windows\SysWOW64\dhcpcsvc.DLL	Microsoft Corporation	6.1.7600.16385 (win7_rtm.090713-1255)
+NLAapi.dll	0x73c90000	0x10000	C:\Windows\SysWOW64\NLAapi.dll	Microsoft Corporation	6.1.7601.17761 (win7sp1_gdr.120112-1636)
+VERSION.dll	0x74950000	0x9000	C:\Windows\SysWOW64\VERSION.dll	Microsoft Corporation	6.1.7600.16385 (win7_rtm.090713-1255)
+wow64cpu.dll	0x74960000	0x8000	C:\Windows\SYSTEM32\wow64cpu.dll	Microsoft Corporation	6.1.7601.18015 (win7sp1_gdr.121129-1432)
+wow64win.dll	0x74970000	0x5c000	C:\Windows\SYSTEM32\wow64win.dll	Microsoft Corporation	6.1.7601.18015 (win7sp1_gdr.121129-1432)
+wow64.dll	0x749d0000	0x3f000	C:\Windows\SYSTEM32\wow64.dll	Microsoft Corporation	6.1.7601.18205 (win7sp1_gdr.130708-1532)
+CRYPTBASE.dll	0x74a20000	0xc000	C:\Windows\syswow64\CRYPTBASE.dll	Microsoft Corporation	6.1.7600.16385 (win7_rtm.090713-1255)
+SspiCli.dll	0x74a30000	0x60000	C:\Windows\syswow64\SspiCli.dll	Microsoft Corporation	6.1.7601.17940 (win7sp1_gdr.120824-0334)
+WS2_32.dll	0x756f0000	0x35000	C:\Windows\syswow64\WS2_32.dll	Microsoft Corporation	6.1.7600.16385 (win7_rtm.090713-1255)
+kernel32.dll	0x75800000	0x110000	C:\Windows\syswow64\kernel32.dll	Microsoft Corporation	6.1.7601.18015 (win7sp1_gdr.121129-1432)
+KERNELBASE.dll	0x75940000	0x47000	C:\Windows\syswow64\KERNELBASE.dll	Microsoft Corporation	6.1.7601.18015 (win7sp1_gdr.121129-1432)
+LPK.dll	0x75be0000	0xa000	C:\Windows\syswow64\LPK.dll	Microsoft Corporation	6.1.7600.16385 (win7_rtm.090713-1255)
+USP10.dll	0x75d10000	0x9d000	C:\Windows\syswow64\USP10.dll	Microsoft Corporation	1.0626.7601.18009 (win7sp1_gdr.121121-1431)
+SHLWAPI.dll	0x75dc0000	0x57000	C:\Windows\syswow64\SHLWAPI.dll	Microsoft Corporation	6.1.7600.16385 (win7_rtm.090713-1255)
+USER32.dll	0x75e20000	0x100000	C:\Windows\syswow64\USER32.dll	Microsoft Corporation	6.1.7601.17514 (win7sp1_rtm.101119-1850)
+sechost.dll	0x75fb0000	0x19000	C:\Windows\SysWOW64\sechost.dll	Microsoft Corporation	6.1.7600.16385 (win7_rtm.090713-1255)
+IMM32.DLL	0x75fd0000	0x60000	C:\Windows\SysWOW64\IMM32.DLL	Microsoft Corporation	6.1.7601.17514 (win7sp1_rtm.101119-1850)
+MSCTF.dll	0x76160000	0xcc000	C:\Windows\syswow64\MSCTF.dll	Microsoft Corporation	6.1.7600.16385 (win7_rtm.090713-1255)
+msvcrt.dll	0x76340000	0xac000	C:\Windows\syswow64\msvcrt.dll	Microsoft Corporation	7.0.7601.17744 (win7sp1_gdr.111215-1535)
+MSASN1.dll	0x76420000	0xc000	C:\Windows\syswow64\MSASN1.dll	Microsoft Corporation	6.1.7601.17514 (win7sp1_rtm.101119-1850)
+PSAPI.DLL	0x764d0000	0x5000	C:\Windows\syswow64\PSAPI.DLL	Microsoft Corporation	6.1.7600.16385 (win7_rtm.090713-1255)
+NSI.dll	0x764e0000	0x6000	C:\Windows\syswow64\NSI.dll	Microsoft Corporation	6.1.7600.16385 (win7_rtm.090713-1255)
+ntdll.dll	0x76e00000	0x1a9000	C:\Windows\SYSTEM32\ntdll.dll	Microsoft Corporation	6.1.7600.16385 (win7_rtm.090713-1255)
+ntdll.dll	0x76fe0000	0x180000	C:\Windows\SysWOW64\ntdll.dll	Microsoft Corporation	6.1.7600.16385 (win7_rtm.090713-1255)
